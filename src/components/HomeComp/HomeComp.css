@@ -1,0 +1,243 @@
+.home-main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-img{
+    width: 375px;
+    height: 294px;
+    background-image: url('../../assets/home/mobile/create-and-share.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-title{
+    width: 375px;
+    height: 419px;
+    background-color: black;
+    padding: 72px 33px;
+    position: relative;
+}
+.home-rect{
+    position: absolute;
+    top:0;
+}
+.home-h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.home-paragraph{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-bottom: 23px;
+}
+.home-wrapper-invite{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-right: 18px;
+}
+.home-wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+.home-arrow-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-arrow {
+    transform: translateX(-6px);
+}
+
+.home-img2{
+    width: 375px;
+    height: 270px;
+    background-image: url('../../assets/home/mobile/beautiful-stories.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-title1{
+    width: 375px;
+    height: 419px;
+    background-color: white;
+    padding: 72px 33px;
+    
+}
+.home-h11{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 3.33333px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 16px;
+}
+.home-paragraph1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-bottom: 23px;
+}
+.home-wrapper-invite1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: black;
+    margin-right: 18px;
+}
+
+.home-img3{
+    width: 375px;
+    height: 270px;
+    background-image: url('../../assets/home/mobile/designed-for-everyone.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-rect2{
+    display: none;
+}
+
+@media screen and (min-width:768px){
+    .homepage-div{
+        width: 750px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .homepage-div2{
+        width: 750px;
+        display: flex;
+    }
+    .homepage-div3{
+        width: 750px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .home-img{
+        width: 255px;
+        height: 650px;
+        background-image: url('../../assets/home/tablet/create-and-share.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-img2{
+        width: 255px;
+        height: 600px;
+        background-image: url('../../assets/home/tablet/beautiful-stories.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-img3{
+        width: 255px;
+        height: 600px;
+        background-image: url('../../assets/home/tablet/designed-for-everyone.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-title{
+        width: 495px;
+        height: 650px;
+        background-color: black;
+        padding: 173px 54px;
+        position: relative;
+    }
+    .home-title1{
+        width: 495px;
+        height: 600px;
+        background-color: white;
+        padding: 134px 54px;
+        
+    }
+    .home-rect{
+        display: none;
+    }
+    .home-rect2{
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .homepage-div{
+        width: 1418px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .homepage-div2{
+        width: 1418px;
+        display: flex;
+    }
+    .homepage-div3{
+        width: 1418px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .home-img{
+        width: 808px;
+        height: 650px;
+        background-image: url('../../assets/home/desktop/create-and-share.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-img2{
+        width: 808px;
+        height: 600px;
+        background-image: url('../../assets/home/desktop/beautiful-stories.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-img3{
+        width: 808px;
+        height: 600px;
+        background-image: url('../../assets/home/desktop/designed-for-everyone.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .home-title{
+        width: 610px;
+        height: 650px;
+        background-color: black;
+        padding: 173px 112px;
+        position: relative;
+    }
+    .home-title1{
+        width: 610px;
+        height: 600px;
+        background-color: white;
+        padding: 136px 112px;
+        
+    }
+}
+

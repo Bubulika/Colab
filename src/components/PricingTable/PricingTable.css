@@ -1,0 +1,183 @@
+.pricing-table-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64.5px;
+}
+
+.pricing-table{
+  width: 318px;
+    
+}
+
+.table-h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-top: 64px;
+}
+.table-main-line{
+    width: 100%;
+    border: 1px solid #000000;
+    margin-top: 23px;
+}
+
+.table-parag{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-top:23px;
+}
+.icons-title-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-line{
+    margin-top: 16px;
+}
+
+.icon-title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 1.66667px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.icons-line img{
+    margin-top: 8px;
+}
+.border{
+    border: 1px solid #DFDFDF;
+    margin-top: 24px;
+}
+.pricing-table-tab{
+    display: none;
+}
+@media screen and (min-width:768px){
+    .pricing-table-tab{
+        display: block;
+    }
+    .pricing-table{
+        display: none;
+    }
+    .compare{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 4.16667px;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top:100px;
+        margin-bottom: 64px;
+    }
+    .table-tablet-main{
+        display: flex;
+        align-items: center;
+        width: 689px;
+    }
+    .samasormoci{
+        display: flex;
+        align-items: center;
+        width: 340px;
+    }
+    .samasormoci h3{
+        font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+    }
+    .danarcheni{
+        display: flex;
+        align-items: center;
+        width: 349px;
+        justify-content: space-between;
+    }
+    .danarcheni h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000000;
+    }
+    .table-tab-line{
+        width: 689px;
+        border: 1px solid black;
+        margin-top: 23px;
+    }
+    .table-tablet-line{
+        width: 689px;
+        border: 1px solid #DFDFDF;
+        margin-top:23.5px;
+    }
+    .samasormoci1{
+        display: flex;
+        align-items: center;
+        width: 340px;
+    }
+    .danarcheni1{
+        display: flex;
+        align-items: center;
+        width: 349px;
+        padding-left: 12px;
+        gap: 124px;
+    }
+    .table-tab-title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+    }
+    .table-tablet-main1{
+        display: flex;
+        align-items: center;
+        width: 689px;
+        margin-top:23px;
+    }
+    .pricing-table-main{
+        margin-bottom: 100px;
+    }
+}
+@media screen and (min-width:1440px){
+    .samasormoci1{
+        display: flex;
+        align-items: center;
+        width: 355px;
+    }
+    .danarcheni1{
+        display: flex;
+        align-items: center;
+        width: 375px;
+        padding-left: 12px;
+        gap: 124px;
+    }
+    .icons-title-flex{
+        width: 730px;
+    }
+}

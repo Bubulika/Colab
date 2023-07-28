@@ -1,0 +1,25 @@
+.home-stories{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+@media screen and (min-width:768px){
+    .home-stories{
+        display: grid;
+        place-items: center;
+    }
+    .home-stories-child{
+        width: 746px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+@media screen and (min-width:1440px){
+    .home-stories-child{
+        width: 1417px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr)
+    }
+}
