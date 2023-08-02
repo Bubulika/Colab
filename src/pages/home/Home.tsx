@@ -25,7 +25,7 @@ export default function Home() {
         <div className="features-grid">
           {featureArray.slice(0, 3).map((item) => (
             <div className="features-child-div">
-              <img src={item.icon}></img>
+              <img src={item.icon} alt="alt-img"></img>
               <h3>{item.offer}</h3>
               <p>{item.bio}</p>
             </div>

@@ -22,7 +22,7 @@ export default function Features() {
         <div className="features-grid">
           {featureArray.map((item) => (
             <div className="features-child-div">
-              <img src={item.icon}></img>
+              <img src={item.icon} alt="alt-img"></img>
               <h3>{item.offer}</h3>
               <p>{item.bio}</p>
             </div>

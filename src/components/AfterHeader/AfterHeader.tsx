@@ -18,14 +18,14 @@ export default function AfterHeader({
   return (
     <div className="after-header-main-div">
       <div className="features-img-div">
-        <img className="img" src={img}></img>
-        <img className="imgtab" src={imgtab}></img>
-        <img className="imgdesk" src={imgdesk}></img>
+        <img className="img" src={img} alt="alt-img"></img>
+        <img className="imgtab" src={imgtab} alt="alt-img"></img>
+        <img className="imgdesk" src={imgdesk} alt="alt-img"></img>
       </div>
       <div className="asiprocenti">
         <div className="after-features-img">
-          <img className="rect" src={rectangle}></img>
-          <img className="rectangle" src={rect}></img>
+          <img className="rect" src={rectangle} alt="alt-img"></img>
+          <img className="rectangle" src={rect} alt="alt-img"></img>
 
           <h1>{title}</h1>
           <p>{paragraph}</p>
