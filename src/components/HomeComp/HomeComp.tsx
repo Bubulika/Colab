@@ -11,8 +11,8 @@ export default function HomeComp() {
       <div className="homepage-div">
         <div className="home-img"></div>
         <div className="home-title">
-          <img className="home-rect" src={rect}></img>
-          <img className="home-rect2" src={rect2}></img>
+          <img className="home-rect" src={rect} alt="alt-img"></img>
+          <img className="home-rect2" src={rect2} alt="alt-img"></img>
           <h1 className="home-h1">Create and share your photo stories.</h1>
           <p className="home-paragraph">
             Photosnap is a platform for photographers and visual storytellers.
@@ -21,8 +21,8 @@ export default function HomeComp() {
           </p>
           <div className="home-wrapper">
             <div className="home-wrapper-invite">GET AN INVITE</div>
-            <img className="home-line" src={line}></img>
-            <img className="home-arrow" src={arrow}></img>
+            <img className="home-line" src={line} alt="alt-img"></img>
+            <img className="home-arrow" src={arrow} alt="alt-img"></img>
           </div>
         </div>
       </div>
@@ -38,8 +38,8 @@ export default function HomeComp() {
           </p>
           <div className="home-wrapper">
             <div className="home-wrapper-invite1">VIEW THE STORIES</div>
-            <img className="home-line" src={lineblack}></img>
-            <img className="home-arrow" src={arrowblack}></img>
+            <img className="home-line" src={lineblack} alt="alt-img"></img>
+            <img className="home-arrow" src={arrowblack} alt="alt-img"></img>
           </div>
         </div>
       </div>
@@ -55,8 +55,8 @@ export default function HomeComp() {
           </p>
           <div className="home-wrapper">
             <div className="home-wrapper-invite1">VIEW THE STORIES</div>
-            <img className="home-line" src={lineblack}></img>
-            <img className="home-arrow" src={arrowblack}></img>
+            <img className="home-line" src={lineblack} alt="alt-img"></img>
+            <img className="home-arrow" src={arrowblack} alt="alt-img"></img>
           </div>
         </div>
       </div>

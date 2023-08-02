@@ -14,15 +14,15 @@ export default function PricingTable() {
             <div className="icons-title-flex">
               <div className="icons-line">
                 <h5 className="icon-title">BASIC</h5>
-                <img src={item.icon}></img>
+                <img src={item.icon} alt="alt-img"></img>
               </div>
               <div className="icons-line">
                 <h5 className="icon-title">PRO</h5>
-                <img src={item.icon2}></img>
+                <img src={item.icon2} alt="alt-img"></img>
               </div>
               <div className="icons-line">
                 <h5 className="icon-title">BUSINESS</h5>
-                <img src={item.icon3}></img>
+                <img src={item.icon3} alt="alt-img"></img>
               </div>
             </div>
 
@@ -51,9 +51,9 @@ export default function PricingTable() {
                 <h3 className="table-tab-title">{item.header}</h3>
               </div>
               <div className="danarcheni1">
-                <img src={item.icon}></img>
-                <img src={item.icon2}></img>
-                <img src={item.icon3}></img>
+                <img src={item.icon} alt="alt-img"></img>
+                <img src={item.icon2} alt="alt-img"></img>
+                <img src={item.icon3} alt="alt-img"></img>
               </div>
             </div>
             <div className="table-tablet-line"></div>

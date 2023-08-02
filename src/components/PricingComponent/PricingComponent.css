@@ -238,7 +238,7 @@
         padding-right: 350px;
         padding-left: 40px;
         display: flex;
-        align-items: flex-start;
+        
     }
 
     .pricing-card-black{
@@ -248,7 +248,7 @@
         padding-right: 350px;
         padding-left: 40px;
         display: flex;
-        align-items: flex-start;
+        
         
     }
     .pricing-money-abs{
@@ -306,7 +306,7 @@
         padding-right: 350px;
         padding-left: 40px;
         display: flex;
-        align-items: flex-start;
+        
     }
     .pricing-card{
         width: 305px;

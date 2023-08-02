@@ -9,13 +9,13 @@ export default function StoriesHeader() {
   return (
     <div className="header-img">
       <div className="img-moon-div">
-        <img className="img-moon" src={storyMainImg}></img>
+        <img className="img-moon" alt="alt-img" src={storyMainImg}></img>
       </div>
       <div className="img-moon-div1">
-        <img className="img-moon" src={storyMainImg1}></img>
+        <img className="img-moon" alt="alt-img" src={storyMainImg1}></img>
       </div>
       <div className="img-moon-div2">
-        <img className="img-moon" src={storyMainImg2}></img>
+        <img className="img-moon" alt="alt-img" src={storyMainImg2}></img>
       </div>
       <div className="after-moon">
         <h4 className="last-month">LAST MONTH’S FEATURED STORY</h4>
@@ -33,9 +33,9 @@ export default function StoriesHeader() {
         <div className="moon-read-story-wrapper">
           <div className="moon-read-story">READ THE STORY</div>
           <div className="moon-main-arrow">
-            <img src={arrow}></img>
+            <img src={arrow} alt="alt-img"></img>
 
-            <img className="rotate" src={line}></img>
+            <img className="rotate" src={line} alt="alt-img"></img>
           </div>
         </div>
       </div>

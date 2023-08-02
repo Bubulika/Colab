@@ -11,18 +11,18 @@ import rectangle1 from "./Rectangle.png";
 export default function BeforeFooter() {
   return (
     <div className="features-footer">
-      <img className="feat-foot-rect" src={rectangle}></img>
-      <img className="feat-foot-rect1" src={rectangle1}></img>
-      <img className="features-footer-mainc-img" src={imgmob} />
-      <img className="features-footer-mainc-img2" src={imgtab}></img>
-      <img className="features-footer-mainc-img3" src={imgdesk}></img>
+      <img className="feat-foot-rect" src={rectangle} alt="alt-img" />
+      <img className="feat-foot-rect1" src={rectangle1} alt="alt-img" />
+      <img className="features-footer-mainc-img" src={imgmob} alt="alt-img" />
+      <img className="features-footer-mainc-img2" src={imgtab} alt="alt-img" />
+      <img className="features-footer-mainc-img3" src={imgdesk} alt="alt-img" />
       <div className="features-footer-abs">
         <h1>We’re in beta. Get your invite today!</h1>
         <div className="features-footer-wrapper">
           <h3>GET AN INVITE</h3>
           <div className="feature-footer-icon-wrapper">
-            <img src={line}></img>
-            <img className="img2" src={arrow}></img>
+            <img src={line} alt="alt-img" />
+            <img className="img2" src={arrow} alt="alt-img" />
           </div>
         </div>
       </div>

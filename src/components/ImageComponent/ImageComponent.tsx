@@ -16,8 +16,8 @@ export default function ImageComponent({
 }) {
   return (
     <div className="img-comp-div">
-      <img className="img-comp-main-img" src={img} alt="photo" />
-      <img className="imagecomponent-rect" src={rect}></img>
+      <img className="img-comp-main-img" src={img} alt="alt-img" />
+      <img className="imagecomponent-rect" src={rect} alt="alt-img"></img>
 
       <div className="img-comp-absolute">
         <p>{date}</p>
@@ -27,8 +27,8 @@ export default function ImageComponent({
         <div className="img-comp-readstory">
           <h3>READ STORY</h3>
           <div className="img-component-icon-wrapper">
-            <img src={line}></img>
-            <img className="img2" src={arrow}></img>
+            <img src={line} alt="alt-img"></img>
+            <img className="img2" src={arrow} alt="alt-img"></img>
           </div>
         </div>
       </div>

@@ -43,10 +43,10 @@ export default function PricingComponent() {
           <button className="pricing-card-btn">PICK PLAN</button>
         </div>
         <div className="pricing-card-black-div">
-          <img className="horizontal" src={horizontal}></img>
+          <img className="horizontal" src={horizontal} alt="alt-img"></img>
           <div className="pricing-card-black">
-            <img className="pricing-rect" src={rect}></img>
-            <img className="vertical" src={vertical}></img>
+            <img className="pricing-rect" src={rect} alt="alt-img"></img>
+            <img className="vertical" src={vertical} alt="alt-img"></img>
             <h3 className="pricing-card-title-black">Pro</h3>
             <p className="pricing-card-paragraph-black">
               More advanced features available. Recommended for photography
